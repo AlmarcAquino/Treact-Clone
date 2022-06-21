@@ -1,5 +1,211 @@
+@import url('https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;700&display=swap');
+
 * {
     padding: 0;
     margin: 0;
     box-sizing: border-box;
+    font-family: 'Inter', sans-serif;
 }
+
+html {
+    scroll-behavior: smooth;
+}
+
+a {
+    text-decoration: none;
+}
+
+ul {
+    list-style-type: none;
+}
+
+p {
+    line-height: 1.5;
+}
+
+
+.page__container {
+    padding: 32px;
+}
+
+.container {
+    padding: 96px 0;
+}
+
+.row {
+    width: 100%;
+    max-width: 1280px;
+    margin: 0 auto;
+}
+
+.highlight--text {
+    color: var(--primary-color);
+}
+
+.curve--border {
+    border-radius: 9999px;
+}
+
+
+
+/* CUSTOM PROPERTIES */
+:root {
+    --primary-color: rgba(100,21,255,1);
+}
+/* END OF CUSTOM PROPERTIES */
+
+
+
+/* NAVIGATION */
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.logo__container {
+    width: 40px;
+    display: flex;
+    align-items: center;
+}
+
+.logo__img {
+    width: 100%;
+    margin-right: 12px;
+}
+
+.logo__text {
+    font-weight: 900;
+    margin-right: 24px;
+    font-size: 1.5rem;
+    color: rgb(19, 18, 18);
+    transition: color 250ms ease;
+}
+
+.logo__text:hover {
+    color: var(--primary-color);
+}
+
+.nav__list {
+    display: flex;
+    align-items: center;
+}
+
+.nav__link {
+    color: #000;
+    margin: 0 24px;
+    font-weight: 500;
+    font-size: 0.9rem;
+    padding-bottom: 4px;
+    border-bottom: rgba(100,21,255,0) 2px;
+    transition: border 250ms ease;
+}
+
+.nav__link:hover {
+    color: var(--primary-color);
+    border-bottom: var(--primary-color) 2px solid;
+}
+
+.nav__link--account {
+    margin-left: 48px;
+    margin-right: 24px;
+}
+
+.nav__link--cta {
+    background-color: var(--primary-color);
+    color: #fff;
+    padding: 12px 32px;
+    margin: 0;
+    font-weight: 500;
+    font-size: 0.9rem;
+}
+
+.nav__link--cta:hover {
+    background-color: rgb(81, 16, 212);
+}
+/* END OF NAVIGATION */
+
+
+
+/* HEADER */
+h1 {
+    font-size: 3rem;
+    margin-bottom: 25px;
+}
+
+.header__container {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.header__text {
+    width: 40%;
+    display: flex;
+    flex-direction: column;
+}
+
+.header__text--para {
+    margin: 32px 0;
+    font-size: 1.1rem;
+}
+
+.header__text--email {
+    position: relative;
+    max-width: 28rem;
+    margin-right: auto;
+    text-align: center;
+}
+
+.header__text--input {
+    padding: 20px 192px 20px 32px;
+}
+
+.header__text--btn {
+    position: absolute;
+    padding: 1rem 0; 
+    font-weight: 700;
+    width: 10rem;
+    margin: 0.25rem 0.25rem 0.25rem 0;
+    left: 240px;
+    background-color: var(--primary-color);
+    border: none;
+}
+
+.header__customers {
+    opacity: 0.6;
+    margin-top: 80px;
+}
+
+.header__img--wrapper {
+    width: 60%;
+}
+
+.header__img {
+    width: 100%;
+}
+/* END OF HEADER */
+
+/* FEATURES */
+/* END OF FEATURES */
+
+/* QUALITY WORK */
+/* END OF QUALITY WORK */
+
+/* STEPS SECTION */
+/* END OF STEPS SECTION */
+
+/* VALUES SECTION */
+/* END OF VALUES SECTION */
+
+/* PRICING SECTION */
+/* END OF PRICING SECTION */
+
+/* TESTIMONIALS */
+/* END OF TESTIMONIALS */
+
+/* CONTACT */
+/* END OF CONTACT */
+
+/* FOOTER */
+/* END OF FOOTER */
