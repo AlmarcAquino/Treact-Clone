@@ -21,8 +21,14 @@ ul {
 
 p {
     line-height: 1.5;
+    color: rgb(124, 139, 161);
 }
 
+h2 {
+    font-size: 3rem;
+    line-height: 5rem;
+    letter-spacing: 1.2px;
+}
 
 .page__container {
     padding: 32px;
@@ -46,11 +52,26 @@ p {
     border-radius: 9999px;
 }
 
+.section--title {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.section--heading {
+    color: var(--heading-color);
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    margin-top: 16px;
+}
+
 
 
 /* CUSTOM PROPERTIES */
 :root {
     --primary-color: rgba(100,21,255,1);
+    --heading-color: rgb(36, 62, 99);
 }
 /* END OF CUSTOM PROPERTIES */
 
@@ -186,13 +207,105 @@ h1 {
 }
 /* END OF HEADER */
 
+
+
 /* FEATURES */
+#features {
+    width: 100%;
+    max-width: 1024px;
+    margin: 0 auto;
+}
+
+.features__intro--wrapper {
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.features__intro--para {
+    max-width: 50ch;
+    font-size: 1.2rem;
+    margin-top: 16px;
+}
+
+.features__list {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.features__service {
+    display: flex;
+    width: calc(100% / 3);
+    margin: 0 16px;
+    padding: 32px 8px;
+}
+
+.features__service--icon--wrapper {
+    padding: 20px;
+    border: rgb(229, 231, 235) 1px solid;
+    border-radius: 50%;
+    display: flex;
+}
+
+.features__service--title {
+    font-size: 1.5rem;
+}
+
+.features__service--para {
+    max-width: 26ch;
+}
 /* END OF FEATURES */
 
+
+
+/* SECTIONS */
+.section__container {
+    display: flex;
+}
+
+
+
 /* QUALITY WORK */
+.quality__description {
+    width: 50%;
+    padding: 32px 0;
+    margin-right: 64px;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+}
+
+.quality__description--para {
+    font-size: 18px;
+    max-width: 64ch;
+    margin-top: 16px;
+    font-weight: 500;
+}
+
+.quality__description--btn {
+    margin-top: 32px;
+    padding: 12px 32px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 14px;
+    border: none;
+}
+
+.quality__img--container {
+    width: 50%;
+    border: rgb(229, 231, 235) 1px solid;
+}
+
+.quality__img {
+    width: 100%;
+}
 /* END OF QUALITY WORK */
 
+
+
 /* STEPS SECTION */
+
 /* END OF STEPS SECTION */
 
 /* VALUES SECTION */

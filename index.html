@@ -11,8 +11,8 @@
 
 <body>
 <div class="page__container">
-  <section id="landing">
-    <div class="row">
+  <section id="landing"> <!-- LANDING -->
+    <div class="row"> <!-- NAVIGATION -->
       <nav>
         <a href="#">
           <figure class="logo__container">
@@ -31,9 +31,9 @@
         </div>
       </nav>
     </div>
-  </section>
+  </section> <!-- END OF NAVIGATION -->
 
-  <section>
+  <section> <!-- HEADER -->
     <div class="container">
       <div class="row">
         <div class="header__container">
@@ -70,9 +70,103 @@
           </figure>
         </div>
       </div>
-    </div>
-  </section>
+    </div> <!-- END OF HEADER -->
+  </section> <!-- END OF LANDING -->
+  
+  <main>
+    <section id="features"> <!-- FEATURES -->
+      <div class="container">
+        <div class="row">
+          <div class="features__intro--wrapper">
+            <span class="section--title">FEATURES</span>
+            <h2 class="section--heading">We have Amazing <span class="highlight--text">Service.</span></h2>
+            <p class="features__intro--para">Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed
+               do eiusmod tempor incididunt ut labore et dolore magna aliqua.
+            </p>
+          </div>
 
+          <div class="features__list">
+            <div class="features__service">
+              <span class="features__service--icon--wrapper">
+                <img src="./assets/icons/secure-icon.svg" class="features__service--icon" alt="">
+              </span>
+              
+              <div class="features__service--description">
+                <span class="features__service--title">Secure</span>
+                <p class="features__service--para">
+                   We strictly only deal with vendors that provide top 
+                   notch security.
+                </p>
+              </div>
+            </div>
+            <div class="features__service">
+              <img src="./assets/icons/secure-icon.svg" class="features__service--icon" alt="">
+              <div class="features__service--description">
+                <span class="features__service--title">Secure</span>
+                <p class="features__service--para">
+                   We strictly only deal with vendors that provide top 
+                   notch security.
+                </p>
+              </div>
+            </div>
+            <div class="features__service">
+              <img src="./assets/icons/secure-icon.svg" class="features__service--icon" alt="">
+              <div class="features__service--description">
+                <span class="features__service--title">Secure</span>
+                <p class="features__service--para">
+                   We strictly only deal with vendors that provide top 
+                   notch security.
+                </p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- END OF FEATURES -->
+
+    <section> <!-- QUALITY WORK -->
+      <div class="container">
+        <div class="row">
+          <div class="section__container">
+            <div class="quality__description">
+              <span class="section--title">QUALITY WORK</span>
+              <h2 class="section--heading">Designed & Developed by <span class="highlight--text">Professionals.</span></h2>
+              <p class="quality__description--para">
+                  Lorem ipsum dolor sit amet, consectetur
+                  adipiscing elit, sed do eiusmod tempor incididunt
+                  ut labore et dolore magna aliqua. Ut enim ad minim
+                  veniam, quis nostrud exercitation ullamco laboris
+                  nisi ut aliquip ex ea commodo consequat.
+              </p>
+              <button class="quality__description--btn curve--border">Learn More</button>
+            </div>
+            <figure class="quality__img--container">
+              <img class="quality__img" src="./assets/hero-screenshot.png" alt="">
+            </figure>
+          </div>
+        </div>
+      </div>
+    </section> <!-- END OF QUALITY WORK -->
+
+    <section> <!-- STEPS -->
+      <div class="container">
+        <div class="row">
+          <div class="section__container">
+            <figure class="steps__img--container">
+              <img class="steps__img" src="./assets/hero-screenshot-templates.png" alt="">
+            </figure>
+            <div class="steps__description">
+              <span class="section--title">STEPS</span>
+              <h2 class="section--heading">Easy to <span class="highlight--text">Get Started.</span></h2>
+              <div class="step"></div>
+              <div class="step"></div>
+              <div class="step"></div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section> <!-- END OF STEPS -->
+  </main>
 </div>
 </body>
 </html>
