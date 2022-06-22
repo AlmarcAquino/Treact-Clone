@@ -4,7 +4,7 @@
     padding: 0;
     margin: 0;
     box-sizing: border-box;
-    font-family: 'Inter', sans-serif;
+    font-family: 'Inter', system-ui;
 }
 
 html {
@@ -52,19 +52,6 @@ h2 {
     border-radius: 9999px;
 }
 
-.section--title {
-    color: var(--primary-color);
-    font-size: 1rem;
-    font-weight: 700;
-}
-
-.section--heading {
-    color: var(--heading-color);
-    font-weight: 900;
-    letter-spacing: 1.2px;
-    line-height: 60px;
-    margin-top: 16px;
-}
 
 
 
@@ -248,6 +235,10 @@ h1 {
     display: flex;
 }
 
+.features__service--icon {
+    display: flex;
+}
+
 .features__service--title {
     font-size: 1.5rem;
 }
@@ -262,6 +253,21 @@ h1 {
 /* SECTIONS */
 .section__container {
     display: flex;
+    justify-content: space-between;
+}
+
+.section--title {
+    color: var(--primary-color);
+    font-size: 1rem;
+    font-weight: 700;
+}
+
+.section--heading {
+    color: var(--heading-color);
+    font-weight: 900;
+    letter-spacing: 1.2px;
+    line-height: 60px;
+    margin-top: 16px;
 }
 
 
@@ -305,10 +311,71 @@ h1 {
 
 
 /* STEPS SECTION */
+.steps__img--container {
+    max-width: 640px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
 
+.steps__img {
+    width: 100%;
+}
+
+.steps__list {
+    display: flex;
+    flex-direction: column;
+}
+
+.step {
+    display: flex;
+    margin-top: 32px;
+}
+
+.step__number {
+    font-size: 2.25rem;
+    font-weight: 600;
+    line-height: 1;
+    color: rgb(203, 213, 224);
+}
+
+.step__description {
+    margin-left: 24px;
+}
+
+.step__description--title {
+    color: rgb(36, 62, 99);
+    font-size: 1.25rem;
+}
+
+.step__description--para {
+    color: rgb(124, 139, 161);
+    margin-top: 12px;
+    max-width: 40ch;
+}
 /* END OF STEPS SECTION */
 
+
+
 /* VALUES SECTION */
+.values__description {
+    width: 40%;
+} 
+
+.values__description--para {
+    font-size: 18px;
+    font-weight: 500;
+    line-height: 30px;
+    margin-top: 32px;
+}
+
+.values__img--container {
+    width: 50%;
+}
+
+.values__img {
+    width: 100%;
+}
 /* END OF VALUES SECTION */
 
 /* PRICING SECTION */
