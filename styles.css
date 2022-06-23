@@ -30,6 +30,11 @@ h2 {
     letter-spacing: 1.2px;
 }
 
+h6 {
+    font-size: 1.25rem;
+    font-weight: 700;
+}
+
 .page__container {
     padding: 32px;
 }
@@ -50,6 +55,16 @@ h2 {
 
 .curve--border {
     border-radius: 9999px;
+}
+
+.btn--learn-more {
+    margin-top: 32px;
+    padding: 12px 32px;
+    background-color: var(--primary-color);
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    border: none;
 }
 
 
@@ -138,7 +153,7 @@ nav {
 /* HEADER */
 h1 {
     font-size: 3rem;
-    margin-bottom: 25px;
+    /* margin-bottom: 25px; */
 }
 
 .header__container {
@@ -163,6 +178,7 @@ h1 {
     max-width: 28rem;
     margin-right: auto;
     text-align: center;
+    border: rgb(229, 231, 235);
 }
 
 .header__text--input {
@@ -181,8 +197,27 @@ h1 {
 }
 
 .header__customers {
-    opacity: 0.6;
     margin-top: 80px;
+}
+
+.header__customers--para {
+    font-size: 0.75rem;
+    color: rgb(160, 174, 192);
+    font-weight: 700;
+    letter-spacing: 0.6px;
+}
+
+.header__customers--img--wrapper {
+    width: 100%;
+    display: inline-block;
+}
+
+.header__customers--img {   
+    width: 100%;
+    height: auto;
+    padding-right: 128px;
+    margin-top: 16px;
+    opacity: 0.5;
 }
 
 .header__img--wrapper {
@@ -223,20 +258,21 @@ h1 {
 
 .features__service {
     display: flex;
-    width: calc(100% / 3);
+    width: calc(100% / 3 - 32px);
     margin: 0 16px;
     padding: 32px 8px;
 }
 
 .features__service--icon--wrapper {
-    padding: 20px;
-    border: rgb(229, 231, 235) 1px solid;
-    border-radius: 50%;
-    display: flex;
+    max-width: 24px;
 }
 
 .features__service--icon {
-    display: flex;
+    border-radius: 50%;
+    border: rgb(229, 231, 235) 1px solid;
+    padding: 20px;
+    width: 100%;
+    transform: scale(0.25);
 }
 
 .features__service--title {
@@ -253,7 +289,7 @@ h1 {
 /* SECTIONS */
 .section__container {
     display: flex;
-    justify-content: space-between;
+    justify-content: space-around;
 }
 
 .section--title {
@@ -287,15 +323,6 @@ h1 {
     max-width: 64ch;
     margin-top: 16px;
     font-weight: 500;
-}
-
-.quality__description--btn {
-    margin-top: 32px;
-    padding: 12px 32px;
-    background-color: var(--primary-color);
-    color: #fff;
-    font-size: 14px;
-    border: none;
 }
 
 .quality__img--container {
@@ -367,6 +394,24 @@ h1 {
     font-weight: 500;
     line-height: 30px;
     margin-top: 32px;
+}
+
+.values__features {
+    display: flex;
+}
+
+.values__feature:not(:last-child) {
+    margin-top: 32px;
+    margin-right: 32px;
+}
+
+.values__feature {
+    margin-top: 32px;
+}
+
+.values__feature--para {
+    margin-top: 16px;
+    line-height: 26px;
 }
 
 .values__img--container {
