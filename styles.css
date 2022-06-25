@@ -49,6 +49,12 @@ h6 {
   margin: 0 auto;
 }
 
+.row-small {
+  width: 100%;
+  max-width: 1024px;
+  margin: 0 auto;
+}
+
 .highlight--text {
   color: var(--primary-color);
 }
@@ -232,12 +238,6 @@ h1 {
 
 
 /* FEATURES */
-#features {
-  width: 100%;
-  max-width: 1024px;
-  margin: 0 auto; 
-}
-
 .features__intro--wrapper {
   text-align: center;
   display: flex;
@@ -567,7 +567,33 @@ h1 {
 }
 /* END OF PRICING SECTION */
 
+
+
 /* TESTIMONIALS */
+.testimonials__container {
+  display: flex;
+}
+
+.testimonials__img--wrapper {
+  max-width: 50%;
+}
+
+.testimonials__img {
+  width: 100%;
+}
+
+.testimonials__description {
+  width: 50%;
+  padding-left: 64px;
+}
+
+.testimonials__description--para {
+  font-size: 1.125rem;
+  color: rgb(124, 139, 161);
+  margin-top: 12px;
+  font-weight: 500;
+  line-height: 30px;
+}
 /* END OF TESTIMONIALS */
 
 /* CONTACT */
