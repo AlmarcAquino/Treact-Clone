@@ -656,14 +656,14 @@ h1 {
 }
 
 .get-started--btn {
-  background-color: rgb(230, 63, 63);
+  background-color: rgb(245,101,101);
   margin: 0px 32px;
   border: none;
 }
 
 .contact-us--btn {
   background-color: rgb(100,21,255);
-  border: rgb(209, 196, 196) 1px solid;
+  border: #e5e7eb 1px solid;
 }
 /* END OF CALL TO ACTION BUBBLE */
 
