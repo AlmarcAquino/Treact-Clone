@@ -6,6 +6,7 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>Treact Clone</title>
   <script src="./app.js"></script>
+  <script src="https://kit.fontawesome.com/7185b28a7b.js" crossorigin="anonymous"></script>
   <link rel="stylesheet" href="./styles.css">
 </head>
 
@@ -342,9 +343,15 @@
                 aliqua enim ad minim veniam.
               </p>
               <div class="testimonial">
-                <!-- STAR ICONS GO HERE -->
-                <span>Amazing User Experience</span>
-                <p>Lorem ipsum dolor sit amet 
+                <div class="stars">
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                  <i class="fa-solid fa-star"></i>
+                </div>
+                <span class="testimonial__title">Amazing User Experience</span>
+                <p class="testimonial__review">Lorem ipsum dolor sit amet 
                   consectetur adipisicing elit. Laboriosam amet 
                   debitis nesciunt, dignissimos laudantium, ratione 
                   accusamus cumque aspernatur explicabo facere labore 
@@ -357,7 +364,24 @@
         </div>
       </div>
     </section> <!-- END OF TESTIMONIALS -->
-    
+
+    <div class="container"> <!-- CALL TO ACTION BUBBLE -->
+      <div class="row">
+        <div class="bubble">
+          <div class="bubble__container">
+            <div class="bubble__text--wrapper">
+              <h5 class="bubble__text">
+                Developers all over the world are happily using Treact.
+              </h5>
+            </div>
+            <div class="bubble__buttons">
+              <button class="get-started--btn curve--border">Get Started</button>
+              <button class="contact-us--btn curve--border">Contact Us</button>
+            </div>
+          </div>
+        </div> 
+      </div>
+    </div> <!-- END OF CALL TO ACTION BUBBLE -->
     
   </main>
 </div>

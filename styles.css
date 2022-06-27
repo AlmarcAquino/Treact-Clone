@@ -590,14 +590,82 @@ h1 {
 .testimonials__description--para {
   font-size: 1.125rem;
   color: rgb(124, 139, 161);
-  margin-top: 12px;
+  margin-top: 1.25rem;
   font-weight: 500;
   line-height: 30px;
 }
+
+.stars {
+  margin-top: 40px;
+  color: rgb(241, 177, 56);
+}
+
+.testimonial__title {
+  margin: 16px 0;
+  display: block;
+  font-weight: 700;
+  font-size: 1.25rem;
+  color: var(--heading-color);
+}
+
+.testimonial__review {
+  font-weight: 500;
+}
 /* END OF TESTIMONIALS */
 
-/* CONTACT */
-/* END OF CONTACT */
+
+
+/* CALL TO ACTION BUBBLE */
+.bubble {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(100,21,255);
+  border-radius: 8px;
+  padding: 104px 52px;
+}
+
+.bubble__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 80%;
+}
+
+.bubble__text--wrapper {
+  width: 50%;
+}
+
+.bubble__text {
+  color: rgb(247, 250, 252);
+  font-size: 2rem;
+  font-weight: 700;
+}
+
+.bubble__buttons {
+  width: 50%;
+}
+
+.get-started--btn,
+.contact-us--btn {
+  padding: 20px 40px;
+  color: rgb(238, 243, 248);
+  font-weight: 700;
+  line-height: 24px;
+  font-size: 1rem;
+}
+
+.get-started--btn {
+  background-color: rgb(230, 63, 63);
+  margin: 0px 32px;
+  border: none;
+}
+
+.contact-us--btn {
+  background-color: rgb(100,21,255);
+  border: rgb(209, 196, 196) 1px solid;
+}
+/* END OF CALL TO ACTION BUBBLE */
 
 /* FOOTER */
 /* END OF FOOTER */
