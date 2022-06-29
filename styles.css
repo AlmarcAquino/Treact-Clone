@@ -667,5 +667,27 @@ h1 {
 }
 /* END OF CALL TO ACTION BUBBLE */
 
+
+
 /* FOOTER */
+footer {
+  width: 100vw;
+  background-color: rgb(92, 79, 194);
+  overflow-x: hidden;
+}
+
+.footer__container {
+  display: flex;
+  align-items: center;
+  justify-content: space-around;
+}
+
+
+
+.footer__link {
+  color: white;
+  text-decoration: none;
+}
+
+
 /* END OF FOOTER */
